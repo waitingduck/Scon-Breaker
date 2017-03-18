@@ -1,0 +1,33 @@
+{
+  "name": "Scon-Breaker",
+  "description": "Scon-Breaker is a simple salck bot",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src"
+  },
+  "author": {
+    "email": "waitingduck@gmail.com",
+    "name": "Wei Ting Cheng",
+    "url": "waitingphoenix.com"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "botkit": "0.0.7",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "github-trending": "^1.3.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "lodash": "^4.6.1",
+    "slack": "^6.1.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "5.7.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
