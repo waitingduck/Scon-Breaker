@@ -1,0 +1,11 @@
+version: '2'
+services:
+  chatbot:
+  ports:
+    - "3000:3000"
+  volumes:
+    - .:/app/
+  container_name: chatbot
+  image: chatbot
+  env_file:
+    - ./chatbot.env
